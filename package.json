@@ -1,0 +1,14 @@
+{
+  "name": "kubectl",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Runs kubectl with provided args",
+  "main": "index.js",
+  "author": "Aravindan Ve <aravindan.ve@outlook.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@actions/exec": "^1.0.3",
+    "@actions/tool-cache": "^1.3.1"
+  }
+}

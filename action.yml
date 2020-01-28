@@ -1,0 +1,15 @@
+name: 'Kubectl'
+author: 'Aravindan Ve <aravindan.ve@outlook.com>'
+description: 'Runs kubectl with provided args'
+inputs:
+  version:
+    description: 'Kubectl version'
+    required: true
+    default: 'latest'
+  args:
+    description: 'Kubectl args'
+    required: true
+    default: ''
+runs:
+  using: 'node12'
+  main: 'index.js'

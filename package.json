@@ -1,8 +1,8 @@
 {
-  "name": "set-docker-config",
+  "name": "kubectl",
   "private": true,
   "version": "1.0.0",
-  "description": "Sets docker config",
+  "description": "Runs kubectl with provided args",
   "main": "index.js",
   "author": "Aravindan Ve <aravindan.ve@outlook.com>",
   "license": "UNLICENSED",
